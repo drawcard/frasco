@@ -1,6 +1,6 @@
 {
   "name": "frasco",
-  "version": "0.5.3",
+  "version": "0.5.5",
   "description": "Jekyll starter project including full setup for gulp, Sass, Autoprefixer, Bourbon/Neat/Bitters, Browserify, imagemin, Browsersync, etc.",
   "main": "gulpfile.js",
   "scripts": {
@@ -13,21 +13,24 @@
     "server": "gulp server",
     "server-production": "gulp server --production"
   },
+  "bin": {
+    "frasco": "./bin/frasco.js"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/ixkaito/frasco.git"
   },
   "keywords": [
-    "Autoprefixer",
-    "Bitters",
-    "Bourbon",
-    "Browsersync",
+    "autoprefixer",
+    "bitters",
+    "bourbon",
+    "browser-sync",
     "gulp",
     "imagemin",
-    "Jekyll",
-    "Neat",
-    "Sass",
-    "Webpack"
+    "jekyll",
+    "neat",
+    "sass",
+    "webpack"
   ],
   "author": "Kite",
   "license": "MIT",
