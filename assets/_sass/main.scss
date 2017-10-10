@@ -1,6 +1,9 @@
 @charset "UTF-8";
 // @import "base/base";
-@import "node_modules/purecss/build/pure-min";
+
+//Pure CSS Imports
+@import "node_modules/purecss/build/pure";
+@import "node_modules/purecss/build/grids-responsive";
 
 /*
 CUSTOM CSS CODE HERE
