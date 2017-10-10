@@ -2268,6 +2268,40 @@ https://github.com/yahoo/pure/blob/master/LICENSE.md
 CUSTOM CSS CODE HERE
 ---------------------------------------------------------------------
 */
-a {
-  color: #000;
+/* Pure CSS Default Layout */
+.page-content {
+  max-width: 1200px;
+  margin: 0px auto;
+}
+
+.site-header {
+  background-color: #ccc;
+  padding: 10px;
+}
+
+.site-footer {
+  background-color: #aaa;
+  padding: 10px;
+}
+
+.footer-col-wrapper {
+  max-width: 1200px;
+  margin: 0px auto;
+}
+
+.menu-toolbar {
+  text-align: left;
+}
+
+.menu-icon svg {
+  background: #fff;
+  width: 12px;
+  height: 12px;
+  padding: 5px;
+}
+
+@media screen and (min-width: 35.5em) {
+  .menu-toolbar {
+    text-align: right;
+  }
 }
