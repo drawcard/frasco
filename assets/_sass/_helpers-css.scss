@@ -1,0 +1,11 @@
+// Use .l-box class to add padding around grid elements
+// Docs: https://purecss.io/grids/
+
+.pure-g > div {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.l-box {
+    padding: 1em;
+}
